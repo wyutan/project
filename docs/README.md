@@ -5,8 +5,8 @@ config:
   -
     type: hero
     full: true
-    forceDark: true
-    effect: lightning
+    forceDark: false
+    // effect: lightning
     background: tint-plate
     hero:
       name: Theme Plume
