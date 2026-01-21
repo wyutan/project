@@ -6,7 +6,7 @@ config:
     type: hero
     full: true
     forceDark: false
-    effect: rays //lightning
+    effect: rays
     hero:
       name: Theme Plume
       tagline: VuePress Next Theme
