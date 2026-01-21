@@ -5,7 +5,8 @@ config:
   -
     type: hero
     full: true
-    forceDark: false
+    forceDark: true
+    effect: lightning
     hero:
       name: Theme Plume
       tagline: VuePress Next Theme
