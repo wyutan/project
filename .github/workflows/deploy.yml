@@ -31,6 +31,10 @@ jobs:
       # 2. 运行 VuePress 专用升级工具，它会自动修改 package.json 中的版本号
       - name: Run vp-update
         run: pnpm dlx vp-update
+        
+      # 2.5 显式安装缺失的运行时依赖 (在这里添加)
+      - name: Install Missing Peer Dependencies
+        run: pnpm add artplayer  
 
       # 3. 核心步骤：将 vp-update 修改后的 package.json 和新 lock 文件推回 GitHub
       - name: Commit and Push Updates
