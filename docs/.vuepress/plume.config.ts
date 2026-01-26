@@ -50,7 +50,7 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'my project',
+    name: 'My Project',
     description: '',
     // circle: true,
     // location: '',
