@@ -5,7 +5,7 @@ config:
   -
     type: hero
     full: true
-    forceDark: false
+    #forceDark: false
     #effect: lightning
     background: tint-plate
     hero:
