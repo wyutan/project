@@ -6,12 +6,12 @@ config:
     type: hero
     full: true
     forceDark: false
-    // effect: lightning
+    #effect: lightning
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: This is my project
+      tagline: 
+      text: 
       actions:
         -
           theme: brand
