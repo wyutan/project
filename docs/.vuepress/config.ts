@@ -92,6 +92,7 @@ export default defineUserConfig({
      */
     markdown: {
       abbr: true,         // 启用 abbr 语法  *[label]: content
+      markmap: true,
       annotation: true,   // 启用 annotation 语法  [+label]: content
       pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
